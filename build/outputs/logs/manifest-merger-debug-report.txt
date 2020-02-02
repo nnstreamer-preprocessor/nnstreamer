@@ -1,0 +1,185 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:2:1-33:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/9997ca74849eaf922d98ba4dc48fc029/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/c6ccf8dcfe0c0a10603c0abea1d6b24c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/aec2313c5f27b3791fd1bf22387399c4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/eb93f216dbdb96d79c8db3b792cc494e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/5ea7b635f044291c7a93e16295778126/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/35336803510b1d019fe6d70bfac7b269/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/61d80777d8c5cb9ed1e651b39ca45385/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/eaa0f3d7bf8b8a004cbd1a3445b21b8d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/432c7ca3b33ced66bba9b661e84b644c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/4cdd65edfa46c9f9231989ef70ec6ac0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/158f6774ee32d75f62bec2c37da7cb37/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/950c3b598af1eade6b591c9f686185df/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/08fab3a94f47125de815abb655de4390/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/92ca428936ab808e51e3204298382177/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/89ab53cd2f696356f149c3a9445f7cea/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/992dc24d29c3e4cc8f34059255feb1f4/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/1f5315b0adcc5f42afc4a034f36c5b2b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/d5ff19fb5e1fea4a65fc6aee332b42cf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/9039054b4229c17f2c9ad9606435333b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/685a5c354dd9815f7e5110b96c3d2755/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/8ddf8d5c1ee5f789b15d42d35fc41734/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/3e4d18da0a7d468278228532b8728cf5/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/7cd39e73bdaca5c34aa5709eaeea51e9/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/662b2a31f5a4a092eb90d5cc5d8b49cf/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/8ac43cc987ec00b9c3646eb726fbed2d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/39e307d2e3c020f64054b5d2923b0916/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:2:1-33:12
+	package
+		ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:4:5-51
+		INJECTED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml
+		INJECTED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:6:5-30
+		INJECTED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml
+		INJECTED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:5:5-28
+		INJECTED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml
+		INJECTED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:8:5-53
+	android:glEsVersion
+		ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:8:19-51
+uses-feature#android.hardware.camera
+ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:9:5-85
+	android:required
+		ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:9:58-82
+	android:name
+		ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:9:19-57
+uses-permission#android.permission.CAMERA
+ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:10:5-65
+	android:name
+		ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:10:22-62
+uses-permission#android.permission.INTERNET
+ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:11:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:12:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:13:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:14:22-65
+application
+ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:16:5-32:19
+MERGED from [com.android.support:support-compat:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/89ab53cd2f696356f149c3a9445f7cea/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/89ab53cd2f696356f149c3a9445f7cea/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/992dc24d29c3e4cc8f34059255feb1f4/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/992dc24d29c3e4cc8f34059255feb1f4/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/89ab53cd2f696356f149c3a9445f7cea/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:18:9-41
+	android:hardwareAccelerated
+		ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:17:9-43
+	tools:ignore
+		ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:22:9-48
+	android:icon
+		ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:19:9-46
+	android:theme
+		ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:21:9-67
+	android:networkSecurityConfig
+		ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:20:9-69
+activity#org.freedesktop.gstreamer.nnstreamer.NNStreamerActivity
+ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:23:9-31:20
+	android:screenOrientation
+		ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:25:13-50
+	android:label
+		ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:26:13-45
+	android:name
+		ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:24:13-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:27:13-30:29
+action#android.intent.action.MAIN
+ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml:29:27-74
+uses-sdk
+INJECTED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml
+INJECTED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/9997ca74849eaf922d98ba4dc48fc029/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/9997ca74849eaf922d98ba4dc48fc029/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/c6ccf8dcfe0c0a10603c0abea1d6b24c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/c6ccf8dcfe0c0a10603c0abea1d6b24c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/aec2313c5f27b3791fd1bf22387399c4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/aec2313c5f27b3791fd1bf22387399c4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/eb93f216dbdb96d79c8db3b792cc494e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/eb93f216dbdb96d79c8db3b792cc494e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/5ea7b635f044291c7a93e16295778126/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/5ea7b635f044291c7a93e16295778126/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/35336803510b1d019fe6d70bfac7b269/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/35336803510b1d019fe6d70bfac7b269/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/61d80777d8c5cb9ed1e651b39ca45385/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/61d80777d8c5cb9ed1e651b39ca45385/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/eaa0f3d7bf8b8a004cbd1a3445b21b8d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/eaa0f3d7bf8b8a004cbd1a3445b21b8d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/432c7ca3b33ced66bba9b661e84b644c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/432c7ca3b33ced66bba9b661e84b644c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/4cdd65edfa46c9f9231989ef70ec6ac0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/4cdd65edfa46c9f9231989ef70ec6ac0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/158f6774ee32d75f62bec2c37da7cb37/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/158f6774ee32d75f62bec2c37da7cb37/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/950c3b598af1eade6b591c9f686185df/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/950c3b598af1eade6b591c9f686185df/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/08fab3a94f47125de815abb655de4390/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/08fab3a94f47125de815abb655de4390/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/92ca428936ab808e51e3204298382177/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/92ca428936ab808e51e3204298382177/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/89ab53cd2f696356f149c3a9445f7cea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/89ab53cd2f696356f149c3a9445f7cea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/992dc24d29c3e4cc8f34059255feb1f4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/992dc24d29c3e4cc8f34059255feb1f4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/1f5315b0adcc5f42afc4a034f36c5b2b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/1f5315b0adcc5f42afc4a034f36c5b2b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/d5ff19fb5e1fea4a65fc6aee332b42cf/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/d5ff19fb5e1fea4a65fc6aee332b42cf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/9039054b4229c17f2c9ad9606435333b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/9039054b4229c17f2c9ad9606435333b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/685a5c354dd9815f7e5110b96c3d2755/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/685a5c354dd9815f7e5110b96c3d2755/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/8ddf8d5c1ee5f789b15d42d35fc41734/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/8ddf8d5c1ee5f789b15d42d35fc41734/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/3e4d18da0a7d468278228532b8728cf5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/3e4d18da0a7d468278228532b8728cf5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/7cd39e73bdaca5c34aa5709eaeea51e9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/7cd39e73bdaca5c34aa5709eaeea51e9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/662b2a31f5a4a092eb90d5cc5d8b49cf/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/662b2a31f5a4a092eb90d5cc5d8b49cf/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/8ac43cc987ec00b9c3646eb726fbed2d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/8ac43cc987ec00b9c3646eb726fbed2d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/39e307d2e3c020f64054b5d2923b0916/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/syh-pc/.gradle/caches/transforms-2/files-2.1/39e307d2e3c020f64054b5d2923b0916/AndroidManifest.xml:20:5-44
+INJECTED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml
+INJECTED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml
+		ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml
+		INJECTED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml
+		ADDED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml
+		INJECTED from /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/AndroidManifest.xml

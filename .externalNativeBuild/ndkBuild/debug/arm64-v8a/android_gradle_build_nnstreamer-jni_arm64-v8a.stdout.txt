@@ -1,0 +1,5 @@
+GStreamer      : [GEN] => gst-build-arm64-v8a/gstreamer_android.c
+GStreamer      : [COMPILE] => gst-build-arm64-v8a/gstreamer_android.c
+GStreamer      : [LINK] => gst-build-arm64-v8a/libgstreamer_android.so
+Done mkdir
+Done cp

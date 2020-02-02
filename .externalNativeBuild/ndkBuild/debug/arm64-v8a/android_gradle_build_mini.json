@@ -1,0 +1,41 @@
+{
+  "buildFiles": [
+    "/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/jni/Android.mk",
+    "/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/jni/Application.mk"
+  ],
+  "cleanCommands": [
+    "/home/syh-pc/android/tools/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/jni/Android.mk NDK_APPLICATION_MK\u003d/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003d/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/build/intermediates/ndkBuild/debug/lib NDK_APPLICATION_MK\u003djni/Application.mk GSTREAMER_JAVA_SRC_DIR\u003dsrc GSTREAMER_ROOT_ANDROID\u003d/home/syh-pc/android/gstreamer-1.0 GSTREAMER_ASSETS_DIR\u003dsrc/assets clean"
+  ],
+  "libraries": {
+    "gstreamer_android-debug-gst-build-arm64-v8a": {
+      "artifactName": "gstreamer_android",
+      "buildCommand": "/home/syh-pc/android/tools/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/jni/Android.mk NDK_APPLICATION_MK\u003d/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003d/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/build/intermediates/ndkBuild/debug/lib NDK_APPLICATION_MK\u003djni/Application.mk GSTREAMER_JAVA_SRC_DIR\u003dsrc GSTREAMER_ROOT_ANDROID\u003d/home/syh-pc/android/gstreamer-1.0 GSTREAMER_ASSETS_DIR\u003dsrc/assets gst-build-arm64-v8a/libgstreamer_android.so",
+      "abi": "gst-build-arm64-v8a",
+      "output": "gst-build-arm64-v8a/libgstreamer_android.so"
+    },
+    "ahc-debug-arm64-v8a": {
+      "artifactName": "ahc",
+      "buildCommand": "/home/syh-pc/android/tools/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/jni/Android.mk NDK_APPLICATION_MK\u003d/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003d/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/build/intermediates/ndkBuild/debug/lib NDK_APPLICATION_MK\u003djni/Application.mk GSTREAMER_JAVA_SRC_DIR\u003dsrc GSTREAMER_ROOT_ANDROID\u003d/home/syh-pc/android/gstreamer-1.0 GSTREAMER_ASSETS_DIR\u003dsrc/assets /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libahc.a",
+      "abi": "arm64-v8a",
+      "output": "/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libahc.a"
+    },
+    "nnstreamer-debug-arm64-v8a": {
+      "artifactName": "nnstreamer",
+      "buildCommand": "/home/syh-pc/android/tools/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/jni/Android.mk NDK_APPLICATION_MK\u003d/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003d/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/build/intermediates/ndkBuild/debug/lib NDK_APPLICATION_MK\u003djni/Application.mk GSTREAMER_JAVA_SRC_DIR\u003dsrc GSTREAMER_ROOT_ANDROID\u003d/home/syh-pc/android/gstreamer-1.0 GSTREAMER_ASSETS_DIR\u003dsrc/assets /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libnnstreamer.a",
+      "abi": "arm64-v8a",
+      "output": "/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libnnstreamer.a"
+    },
+    "cpufeatures-debug-arm64-v8a": {
+      "artifactName": "cpufeatures",
+      "buildCommand": "/home/syh-pc/android/tools/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/jni/Android.mk NDK_APPLICATION_MK\u003d/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003d/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/build/intermediates/ndkBuild/debug/lib NDK_APPLICATION_MK\u003djni/Application.mk GSTREAMER_JAVA_SRC_DIR\u003dsrc GSTREAMER_ROOT_ANDROID\u003d/home/syh-pc/android/gstreamer-1.0 GSTREAMER_ASSETS_DIR\u003dsrc/assets /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libcpufeatures.a",
+      "abi": "arm64-v8a",
+      "output": "/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libcpufeatures.a"
+    },
+    "nnstreamer-jni-debug-arm64-v8a": {
+      "artifactName": "nnstreamer-jni",
+      "buildCommand": "/home/syh-pc/android/tools/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/jni/Android.mk NDK_APPLICATION_MK\u003d/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003d/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/build/intermediates/ndkBuild/debug/lib NDK_APPLICATION_MK\u003djni/Application.mk GSTREAMER_JAVA_SRC_DIR\u003dsrc GSTREAMER_ROOT_ANDROID\u003d/home/syh-pc/android/gstreamer-1.0 GSTREAMER_ASSETS_DIR\u003dsrc/assets /home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libnnstreamer-jni.so",
+      "abi": "arm64-v8a",
+      "output": "/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libnnstreamer-jni.so"
+    }
+  }
+}
