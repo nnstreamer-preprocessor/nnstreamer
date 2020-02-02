@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true" />
 
-<!--
+
     <Button android:id="@+id/btn_load"
         android:layout_width="match_parent"
         android:layout_height="50dp"
@@ -43,6 +43,6 @@
         android:onClick="mOnClick"
         android:text="save file into Internal" />
 
--->
+
 
 </RelativeLayout>
