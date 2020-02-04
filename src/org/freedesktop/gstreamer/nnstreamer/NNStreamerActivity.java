@@ -438,7 +438,7 @@ public class NNStreamerActivity extends Activity implements
      * output 폴더 생성하기
      */
     private File getSaveFolder(){
-        File dir = new File(Environment.getExternalStorageDirectory()+"lidar_output");
+        File dir = new File(Environment.getExternalStorageDirectory()+"lidar_output");//브랜치 테스트
         if(!dir.exists()){
             dir.mkdir();
         }
