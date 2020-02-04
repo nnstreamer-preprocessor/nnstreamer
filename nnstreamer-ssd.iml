@@ -4,6 +4,8 @@
     <facet type="android-gradle" name="Android-Gradle">
       <configuration>
         <option name="GRADLE_PROJECT_PATH" value=":nnstreamer-ssd" />
+        <option name="LAST_SUCCESSFUL_SYNC_AGP_VERSION" />
+        <option name="LAST_KNOWN_AGP_VERSION" />
       </configuration>
     </facet>
     <facet type="native-android-gradle" name="Native-Android-Gradle">
@@ -29,8 +31,8 @@
     <output url="file://$MODULE_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes" />
     <output-test url="file://$MODULE_DIR$/build/intermediates/javac/debugUnitTest/compileDebugUnitTestJavaWithJavac/classes" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../../../../tools/sdk/ndk-bundle/sources/android/cpufeatures">
-      <sourceFolder url="file://$MODULE_DIR$/../../../../../tools/sdk/ndk-bundle/sources/android/cpufeatures" isTestSource="false" />
+    <content url="file://$USER_HOME$/tools/sdk/ndk-bundle/sources/android/cpufeatures">
+      <sourceFolder url="file://$USER_HOME$/tools/sdk/ndk-bundle/sources/android/cpufeatures" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$/..">
       <sourceFolder url="file://$MODULE_DIR$/.." isTestSource="false" />

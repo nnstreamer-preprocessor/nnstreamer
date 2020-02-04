@@ -23,6 +23,7 @@ import org.freedesktop.gstreamer.GStreamerSurfaceView;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.List;
 
 public class NNStreamerActivity extends Activity implements
         SurfaceHolder.Callback,
@@ -31,6 +32,11 @@ public class NNStreamerActivity extends Activity implements
     private static final int PERMISSION_REQUEST_ALL = 3;
     private static final int PIPELINE_ID = 1;
     private static final String downloadPath = Environment.getExternalStorageDirectory().getPath() + "/nnstreamer/tflite_model";
+
+    /*경로 변수*/
+    private static final String InputPath = Environment.getExternalStorageDirectory().getPath() + "/nnstreamer/lidar_input";
+    private List InputFileList;
+    ///////////////
 
     private native void nativeInit(int w, int h); /* Initialize native code, build pipeline, etc */
     private native void nativeFinalize(); /* Destroy pipeline and shutdown native code */
@@ -61,18 +67,18 @@ public class NNStreamerActivity extends Activity implements
 
         /* Check permissions */
         if (!checkPermission(Manifest.permission.CAMERA) ||
-            !checkPermission(Manifest.permission.INTERNET) ||
-            !checkPermission(Manifest.permission.READ_EXTERNAL_STORAGE) ||
-            !checkPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE) ||
-            !checkPermission(Manifest.permission.WAKE_LOCK)) {
+                !checkPermission(Manifest.permission.INTERNET) ||
+                !checkPermission(Manifest.permission.READ_EXTERNAL_STORAGE) ||
+                !checkPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE) ||
+                !checkPermission(Manifest.permission.WAKE_LOCK)) {
             ActivityCompat.requestPermissions(this,
-                new String[] {
-                    Manifest.permission.CAMERA,
-                    Manifest.permission.INTERNET,
-                    Manifest.permission.READ_EXTERNAL_STORAGE,
-                    Manifest.permission.WRITE_EXTERNAL_STORAGE,
-                    Manifest.permission.WAKE_LOCK
-                }, PERMISSION_REQUEST_ALL);
+                    new String[] {
+                            Manifest.permission.CAMERA,
+                            Manifest.permission.INTERNET,
+                            Manifest.permission.READ_EXTERNAL_STORAGE,
+                            Manifest.permission.WRITE_EXTERNAL_STORAGE,
+                            Manifest.permission.WAKE_LOCK
+                    }, PERMISSION_REQUEST_ALL);
             return;
         }
 
@@ -96,7 +102,9 @@ public class NNStreamerActivity extends Activity implements
             if (downloadTask != null && downloadTask.isProgress()) {
                 Log.d(TAG, "Now downloading model files");
             } else {
+                checkLidarInputFile();//인풋 폴더 내 라이다 파일 이름 가져오기 InputFileList
                 startPipeline(PIPELINE_ID);
+                /*여기가 파이프라인 시작점*/
             }
         }
     }
@@ -183,24 +191,24 @@ public class NNStreamerActivity extends Activity implements
         }
 
         switch (viewId) {
-        case R.id.main_button_play:
-            nativePlay();
-            buttonPlay.setVisibility(View.GONE);
-            buttonStop.setVisibility(View.VISIBLE);
-            break;
-        case R.id.main_button_stop:
-            nativePause();
-            buttonPlay.setVisibility(View.VISIBLE);
-            buttonStop.setVisibility(View.GONE);
-            break;
-        default:
-            break;
+            case R.id.main_button_play:
+                nativePlay();
+                buttonPlay.setVisibility(View.GONE);
+                buttonStop.setVisibility(View.VISIBLE);
+                break;
+            case R.id.main_button_stop:
+                nativePause();
+                buttonPlay.setVisibility(View.VISIBLE);
+                buttonStop.setVisibility(View.GONE);
+                break;
+            default:
+                break;
         }
     }
 
     @Override
     public void onRequestPermissionsResult(int requestCode,
-            String permissions[], int[] grantResults) {
+                                           String permissions[], int[] grantResults) {
         if (requestCode == PERMISSION_REQUEST_ALL) {
             for (int grant : grantResults) {
                 if (grant != PackageManager.PERMISSION_GRANTED) {
@@ -261,6 +269,7 @@ public class NNStreamerActivity extends Activity implements
         buttonStop.setOnClickListener(this);
 
         /* Video surface for camera */
+        /*카메라이 부분을 끄고 */
         SurfaceView sv = (SurfaceView) this.findViewById(R.id.main_surface_video);
         SurfaceHolder sh = sv.getHolder();
         sh.addCallback(this);
@@ -395,5 +404,44 @@ public class NNStreamerActivity extends Activity implements
         });
 
         builder.show();
+    }
+
+
+
+    /**
+     * 인풋 폴더 접근해서 안에 있는 파일 이름 가져오기;
+     */
+    private void checkLidarInputFile() {
+
+        File inputFile = new File(InputPath);
+
+        if (!inputFile.exists()) {
+
+            Log.d(TAG, "empty input data" + inputFile);
+
+        }else{
+
+            InputFileList = new ArrayList(0);
+            File list[] = inputFile.listFiles();
+
+            for(int i=0;i<list.length;i++){
+                InputFileList.add(list[i].getName());
+            }
+        }
+    }
+    /**
+     * 해당 파일 로드하기 GStreamer에서 어떻게 로드하는지 알아봐야함.
+     * /
+
+
+     /**
+     * output 폴더 생성하기
+     */
+    private File getSaveFolder(){
+        File dir = new File(Environment.getExternalStorageDirectory()+"lidar_output");
+        if(!dir.exists()){
+            dir.mkdir();
+        }
+        return dir;
     }
 }
