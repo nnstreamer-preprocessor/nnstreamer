@@ -724,10 +724,6 @@
         "source": "/home/syh-pc/.gradle/caches/transforms-2/files-2.1/9997ca74849eaf922d98ba4dc48fc029/res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/build/intermediates/res/merged/debug/layout_abc_screen_toolbar.xml.flat",
-        "source": "/home/syh-pc/.gradle/caches/transforms-2/files-2.1/9997ca74849eaf922d98ba4dc48fc029/res/layout/abc_screen_toolbar.xml"
-    },
-    {
         "merged": "/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_focused_holo.9.png.flat",
         "source": "/home/syh-pc/.gradle/caches/transforms-2/files-2.1/9997ca74849eaf922d98ba4dc48fc029/res/drawable-mdpi-v4/abc_list_focused_holo.9.png"
     },
@@ -994,6 +990,10 @@
     {
         "merged": "/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
         "source": "/home/syh-pc/.gradle/caches/transforms-2/files-2.1/9997ca74849eaf922d98ba4dc48fc029/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/build/intermediates/res/merged/debug/drawable_bmw.jpg.flat",
+        "source": "/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/res/drawable/bmw.jpg"
     },
     {
         "merged": "/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",

@@ -1,1 +1,0 @@
-[{"outputType":{"type":"INSTANT_APP_MANIFEST"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":1,"versionName":"1.0","enabled":true,"outputFile":"nnstreamer-ssd-debug.apk","fullName":"debug","baseName":"debug"},"path":"AndroidManifest.xml","properties":{"packageId":"org.freedesktop.gstreamer.nnstreamer.ssd","split":"","minSdkVersion":"24"}}]

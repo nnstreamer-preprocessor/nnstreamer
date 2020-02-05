@@ -1,4 +1,4 @@
-#Sun Jan 19 19:44:17 KST 2020
+#Wed Feb 05 14:48:15 KST 2020
 base.0=/home/syh-pc/android/workspace/nnstreamer-example/android/example_app/nnstreamer-ssd/build/intermediates/transforms/dexMerger/debug/6
 path.0=classes.dex
 renamed.0=classes.dex

@@ -4,5 +4,5 @@
       android:versionCode="1"
       android:versionName="1.0"
       split="lib_resources_apk">
-	<uses-sdk android:minSdkVersion="24"/>
+	<uses-sdk android:minSdkVersion="28"/>
 </manifest>

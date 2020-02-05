@@ -3,8 +3,15 @@ package org.freedesktop.gstreamer.nnstreamer;
 import android.Manifest;
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.Context;
+import android.content.ContextWrapper;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.os.Environment;
@@ -12,7 +19,10 @@ import android.util.Log;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import android.support.v4.app.ActivityCompat;
@@ -21,7 +31,14 @@ import android.support.v4.content.ContextCompat;
 import org.freedesktop.gstreamer.GStreamer;
 import org.freedesktop.gstreamer.GStreamerSurfaceView;
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 
 public class NNStreamerActivity extends Activity implements
@@ -55,6 +72,11 @@ public class NNStreamerActivity extends Activity implements
     private ImageButton buttonPlay;
     private ImageButton buttonStop;
 
+    private static final String FILE_NAME = "example.txt";
+
+    EditText mEditText;
+
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -77,7 +99,72 @@ public class NNStreamerActivity extends Activity implements
         }
 
         initActivity();
+
+        //text data save & load test
+        mEditText = findViewById(R.id.edit_text);
+
     }
+
+    //text data save & load test
+
+    public void save(View v) {
+        String text = mEditText.getText().toString();
+        FileOutputStream fos = null;
+
+        try {
+            fos = openFileOutput(FILE_NAME, MODE_PRIVATE);
+            fos.write(text.getBytes());
+
+            mEditText.getText().clear();
+            Toast.makeText(this, "Saved to " + getFilesDir() + "/" + FILE_NAME,
+                    Toast.LENGTH_LONG).show();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (fos != null) {
+                try {
+                    fos.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+
+
+    public void load(View v) {
+        FileInputStream fis = null;
+
+        try {
+            fis = openFileInput(FILE_NAME);
+            InputStreamReader isr = new InputStreamReader(fis);
+            BufferedReader br = new BufferedReader(isr);
+            StringBuilder sb = new StringBuilder();
+            String text;
+
+            while ((text = br.readLine()) != null) {
+                sb.append(text).append("\n");
+            }
+
+            mEditText.setText(sb.toString());
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (fis != null) {
+                try {
+                    fis.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+
 
     @Override
     public void onPause() {
@@ -260,11 +347,12 @@ public class NNStreamerActivity extends Activity implements
         buttonStop = (ImageButton) this.findViewById(R.id.main_button_stop);
         buttonStop.setOnClickListener(this);
 
-        /* Video surface for camera */
+        /*
+        *//* Video surface for camera *//*
         SurfaceView sv = (SurfaceView) this.findViewById(R.id.main_surface_video);
         SurfaceHolder sh = sv.getHolder();
         sh.addCallback(this);
-
+*/
         /* Start with disabled buttons, until the pipeline in native code is initialized. */
         enableButton(false);
 

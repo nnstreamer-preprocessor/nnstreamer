@@ -58,11 +58,11 @@ static jfieldID custom_data_field_id;
 static jmethodID set_message_method_id;
 static jmethodID on_gstreamer_initialized_method_id;
 
-/* list of registered pipelines */
+/* list of registered pipelines */ //tutorials-> android tutorials -> video 에서 추가된 부분
 static GSList *g_pipelines = NULL;
 
 /**
- * @brief Get data of pipeline ID.
+ * @brief Get data of pipeline ID. //tutorials-> android tutorials -> video 에서 추가된 부분
  */
 static NNSPipelineInfo *
 get_pipeline_info (gint id)
@@ -84,7 +84,7 @@ get_pipeline_info (gint id)
 }
 
 /**
- * @brief Init callback of pipeline data.
+ * @brief Init callback of pipeline data. //tutorials-> android tutorials -> video 에서 추가된 부분
  */
 static void
 init_pipeline_info (void)
@@ -104,7 +104,7 @@ init_pipeline_info (void)
 }
 
 /**
- * @brief Free callback of pipeline data.
+ * @brief Free callback of pipeline data. //tutorials-> android tutorials -> video 에서 추가된 부분
  */
 static void
 free_pipeline_info (void)
@@ -124,7 +124,7 @@ free_pipeline_info (void)
 }
 
 /**
- * @brief Register pipeline.
+ * @brief Register pipeline. //tutorials-> android tutorials -> video 에서 추가된 부분
  */
 gboolean
 nns_register_pipeline (NNSPipelineInfo * info)
@@ -271,9 +271,9 @@ check_initialization_complete (CustomData * data)
   JNIEnv *env = get_jni_env ();
 
   if (!data->initialized && data->native_window && data->main_loop) {
-    NNSPipelineInfo *info;
-    gchar *name, *desc;
-    jstring jname, jdesc;
+    NNSPipelineInfo *info; //tutorials-> android tutorials -> video 에서 추가된 부분
+    gchar *name, *desc; //tutorials-> android tutorials -> video 에서 추가된 부분
+    jstring jname, jdesc; //tutorials-> android tutorials -> video 에서 추가된 부분
 
     nns_logd
         ("Initialization complete, notifying application. native_window:%p main_loop:%p",
@@ -283,7 +283,7 @@ check_initialization_complete (CustomData * data)
     gst_video_overlay_set_window_handle (GST_VIDEO_OVERLAY (data->video_sink),
         (guintptr) data->native_window);
 
-    /* Set pipeline description */
+    /* Set pipeline description */ //tutorials-> android tutorials -> video 에서 추가된 부분
     info = get_pipeline_info (data->pipeline_id);
 
     name = desc = NULL;
@@ -316,7 +316,7 @@ check_initialization_complete (CustomData * data)
  * @brief Main method for the native code. This is executed on its own thread.
  */
 static void *
-run_pipeline (void *userdata)
+run_pipeline (void *userdata)  //tutorials-> android tutorials -> video 에서 추가된 부분
 {
   CustomData *data = (CustomData *) userdata;
   GstBus *bus;
@@ -419,7 +419,7 @@ run_pipeline (void *userdata)
  * @brief Stop the pipeline.
  */
 static void
-gst_native_stop (JNIEnv * env, jobject thiz)
+gst_native_stop (JNIEnv * env, jobject thiz) //tutorials-> android tutorials -> video 에서 추가된 부분
 {
   CustomData *data = GET_CUSTOM_DATA (env, thiz, custom_data_field_id);
 
@@ -439,7 +439,7 @@ gst_native_stop (JNIEnv * env, jobject thiz)
  * @brief Start a pipeline with given index.
  */
 static void
-gst_native_start (JNIEnv * env, jobject thiz, jint id, jint option)
+gst_native_start (JNIEnv * env, jobject thiz, jint id, jint option) //tutorials-> android tutorials -> video 에서 추가된 부분
 {
   CustomData *data = GET_CUSTOM_DATA (env, thiz, custom_data_field_id);
 
@@ -477,30 +477,30 @@ gst_native_init (JNIEnv * env, jobject thiz, jint media_w, jint media_h)
   nns_logd ("Created GlobalRef for app object at %p", data->app);
 
   /* set media resolution */
-  data->media_width = (gint) media_w;
-  data->media_height = (gint) media_h;
+  data->media_width = (gint) media_w; //tutorials-> android tutorials -> video 에서 추가된 부분
+  data->media_height = (gint) media_h; //tutorials-> android tutorials -> video 에서 추가된 부분
 
   /* register ahc2src */
-  GST_PLUGIN_STATIC_REGISTER (ahc2src);
+  GST_PLUGIN_STATIC_REGISTER (ahc2src); //tutorials-> android tutorials -> video 에서 추가된 부분
 
   /* register nnstreamer plugins */
-  GST_PLUGIN_STATIC_REGISTER (nnstreamer);
+  GST_PLUGIN_STATIC_REGISTER (nnstreamer); //tutorials-> android tutorials -> video 에서 추가된 부분
 
   /* filter tensorflow-lite sub-plugin */
-  init_filter_tflite ();
+  init_filter_tflite (); //tutorials-> android tutorials -> video 에서 추가된 부분
 
   /* register pipeline */
-  nns_ex_register_pipeline ();
+  nns_ex_register_pipeline (); //tutorials-> android tutorials -> video 에서 추가된 부분
 
   /* initialize pipelines */
-  init_pipeline_info ();
+  init_pipeline_info (); //tutorials-> android tutorials -> video 에서 추가된 부분
 }
 
 /**
  * @brief Quit the main loop, remove the native thread and free resources.
  */
 static void
-gst_native_finalize (JNIEnv * env, jobject thiz)
+gst_native_finalize (JNIEnv * env, jobject thiz) //tutorials-> android tutorials -> video 에서 변경된 부분
 {
   CustomData *data = GET_CUSTOM_DATA (env, thiz, custom_data_field_id);
 
@@ -517,13 +517,13 @@ gst_native_finalize (JNIEnv * env, jobject thiz)
   SET_CUSTOM_DATA (env, thiz, custom_data_field_id, NULL);
 
   /* filter tensorflow-lite sub-plugin */
-  fini_filter_tflite ();
+  fini_filter_tflite ();    //tutorials-> android tutorials -> video 에서 추가된 부분
 
   /* free pipelines */
-  free_pipeline_info ();
+  free_pipeline_info ();     //tutorials-> android tutorials -> video 에서 추가된 부분
 
-  g_slist_free (g_pipelines);
-  g_pipelines = NULL;
+  g_slist_free (g_pipelines); //tutorials-> android tutorials -> video 에서 추가된 부분
+  g_pipelines = NULL; //tutorials-> android tutorials -> video 에서 추가된 부분
 
   nns_logi ("Done finalizing");
 }
@@ -652,7 +652,7 @@ gst_native_surface_finalize (JNIEnv * env, jobject thiz)
 /**
  * @brief Get pipeline name
  */
-static jstring
+static jstring //tutorials-> android tutorials -> video 에서 추가된 부분
 gst_native_get_name (JNIEnv * env, jobject thiz, jint id, jint option)
 {
   NNSPipelineInfo *info;
@@ -671,7 +671,7 @@ gst_native_get_name (JNIEnv * env, jobject thiz, jint id, jint option)
 /**
  * @brief Get pipeline description
  */
-static jstring
+static jstring //tutorials-> android tutorials -> video 에서 추가된 부분
 gst_native_get_description (JNIEnv * env, jobject thiz, jint id, jint option)
 {
   NNSPipelineInfo *info;
@@ -693,15 +693,15 @@ gst_native_get_description (JNIEnv * env, jobject thiz, jint id, jint option)
 static JNINativeMethod native_methods[] = {
   {"nativeInit", "(II)V", (void *) gst_native_init},
   {"nativeFinalize", "()V", (void *) gst_native_finalize},
-  {"nativeStart", "(II)V", (void *) gst_native_start},
-  {"nativeStop", "()V", (void *) gst_native_stop},
+  {"nativeStart", "(II)V", (void *) gst_native_start}, //tutorials-> android tutorials -> video 에서 추가된 부분
+  {"nativeStop", "()V", (void *) gst_native_stop}, //tutorials-> android tutorials -> video 에서 추가된 부분
   {"nativePlay", "()V", (void *) gst_native_play},
   {"nativePause", "()V", (void *) gst_native_pause},
   {"nativeSurfaceInit", "(Ljava/lang/Object;)V",
       (void *) gst_native_surface_init},
   {"nativeSurfaceFinalize", "()V", (void *) gst_native_surface_finalize},
-  {"nativeGetName", "(II)Ljava/lang/String;", (void *) gst_native_get_name},
-  {"nativeGetDescription", "(II)Ljava/lang/String;",
+  {"nativeGetName", "(II)Ljava/lang/String;", (void *) gst_native_get_name}, //tutorials-> android tutorials -> video 에서 추가된 부분
+  {"nativeGetDescription", "(II)Ljava/lang/String;", //tutorials-> android tutorials -> video 에서 추가된 부분
       (void *) gst_native_get_description},
   {"nativeClassInit", "()Z", (void *) gst_native_class_init}
 };

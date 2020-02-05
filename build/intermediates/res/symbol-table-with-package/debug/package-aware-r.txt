@@ -568,6 +568,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable bmw
 drawable nnsuite_logo
 drawable notification_action_background
 drawable notification_bg
@@ -617,6 +618,8 @@ id beginning
 id blocking
 id bottom
 id buttonPanel
+id button_load
+id button_save
 id center
 id center_horizontal
 id center_vertical
@@ -633,6 +636,7 @@ id decor_content_parent
 id default_activity_button
 id disableHome
 id edit_query
+id edit_text
 id end
 id expand_activities_button
 id expanded_menu
