@@ -7,10 +7,264 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e2824cf-56ce-4a30-9e21-9c9ee0b474e2" name="Default Changelist" comment="테스트1">
-      <change afterPath="$USER_HOME$/.AndroidStudio3.5/system/workspace/test_1.f1ccdd88.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nnstreamer-example" beforeDir="false" afterPath="$PROJECT_DIR$/../nnstreamer-example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.gradle/5.4.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.gradle/5.4.1/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.gradle/5.4.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__android_arch_core_common_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_24_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__com_android_support_appcompat_v7_24_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__com_android_support_collections_28_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_1_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__com_android_support_customview_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__com_android_support_documentfile_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__com_android_support_interpolator_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__com_android_support_loader_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__com_android_support_support_annotations_24_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__com_android_support_support_annotations_28_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__com_android_support_support_v4_24_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__com_android_support_support_vector_drawable_24_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__com_android_support_support_vector_drawable_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/libraries/Gradle__org_nnsuite_nnstreamer_0_0_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/api-sample/api-sample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/capi-sample/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_generate_ndk_build_json_arm64-v8a.command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/capi-sample/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_generate_ndk_build_json_arm64-v8a.stderr.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/capi-sample/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_generate_ndk_build_json_arm64-v8a.stdout.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/capi-sample/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/android_gradle_generate_ndk_build_json_armeabi-v7a.command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/capi-sample/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/android_gradle_generate_ndk_build_json_armeabi-v7a.stderr.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/capi-sample/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/android_gradle_generate_ndk_build_json_armeabi-v7a.stdout.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/capi-sample/.externalNativeBuild/ndkBuild/release/arm64-v8a/android_gradle_generate_ndk_build_json_arm64-v8a.command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/capi-sample/.externalNativeBuild/ndkBuild/release/arm64-v8a/android_gradle_generate_ndk_build_json_arm64-v8a.stderr.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/capi-sample/.externalNativeBuild/ndkBuild/release/arm64-v8a/android_gradle_generate_ndk_build_json_arm64-v8a.stdout.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/capi-sample/.externalNativeBuild/ndkBuild/release/armeabi-v7a/android_gradle_generate_ndk_build_json_armeabi-v7a.command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/capi-sample/.externalNativeBuild/ndkBuild/release/armeabi-v7a/android_gradle_generate_ndk_build_json_armeabi-v7a.stderr.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/capi-sample/.externalNativeBuild/ndkBuild/release/armeabi-v7a/android_gradle_generate_ndk_build_json_armeabi-v7a.stdout.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/capi-sample/capi-sample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/ahc/gstahc2src.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/ahc/gstahc2src.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite-1.13.tar.xz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/flatbuffers/base.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/flatbuffers/code_generators.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/flatbuffers/flatbuffers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/flatbuffers/flatc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/flatbuffers/flexbuffers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/flatbuffers/grpc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/flatbuffers/hash.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/flatbuffers/idl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/flatbuffers/minireflect.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/flatbuffers/reflection.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/flatbuffers/reflection_generated.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/flatbuffers/registry.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/flatbuffers/stl_emulation.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/flatbuffers/util.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/contrib/lite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/allocation.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/arena_planner.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/builtin_op_data.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/builtin_ops.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/c/builtin_op_data.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/c/c_api_internal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/context.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/context_util.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/core/api/error_reporter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/core/api/flatbuffer_conversions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/core/api/op_resolver.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/core/subgraph.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/error_reporter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/graph_info.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/interpreter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/kernels/activation_functor.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/kernels/eigen_support.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/kernels/gemm_support.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/kernels/kernel_util.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/kernels/lstm_eval.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/kernels/op_macros.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/kernels/padding.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/kernels/register.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/kernels/test_util.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/memory_planner.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/model.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/mutable_op_resolver.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/nnapi_delegate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/op_resolver.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/optional_debug_tools.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/profiling/profile_buffer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/profiling/profile_summarizer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/profiling/profiler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/profiling/time.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/schema/schema_generated.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/simple_memory_arena.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/stderr_reporter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/string.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/string_util.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/tools/gen_op_registration.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/tools/verifier.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/util.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/common/jni/tensorflow-lite/include/tensorflow/lite/version.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/example_app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_build_mini.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_build_nnstreamer-jni_arm64-v8a.command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_build_nnstreamer-jni_arm64-v8a.stderr.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_build_nnstreamer-jni_arm64-v8a.stdout.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_generate_ndk_build_json_arm64-v8a.command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_generate_ndk_build_json_arm64-v8a.stderr.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_generate_ndk_build_json_arm64-v8a.stdout.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/.externalNativeBuild/ndkBuild/debug/arm64-v8a/ndkBuild_build_command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/.externalNativeBuild/ndkBuild/debug/arm64-v8a/ndkBuild_build_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/android_gradle_build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/android_gradle_build_mini.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/android_gradle_generate_ndk_build_json_armeabi-v7a.command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/android_gradle_generate_ndk_build_json_armeabi-v7a.stderr.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/android_gradle_generate_ndk_build_json_armeabi-v7a.stdout.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/ndkBuild_build_command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/ndkBuild_build_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/.externalNativeBuild/ndkBuild/release/arm64-v8a/android_gradle_build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/.externalNativeBuild/ndkBuild/release/arm64-v8a/android_gradle_build_mini.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/.externalNativeBuild/ndkBuild/release/arm64-v8a/android_gradle_generate_ndk_build_json_arm64-v8a.command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/.externalNativeBuild/ndkBuild/release/arm64-v8a/android_gradle_generate_ndk_build_json_arm64-v8a.stderr.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/.externalNativeBuild/ndkBuild/release/arm64-v8a/android_gradle_generate_ndk_build_json_arm64-v8a.stdout.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/.externalNativeBuild/ndkBuild/release/arm64-v8a/ndkBuild_build_command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/.externalNativeBuild/ndkBuild/release/arm64-v8a/ndkBuild_build_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/.externalNativeBuild/ndkBuild/release/armeabi-v7a/android_gradle_build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/.externalNativeBuild/ndkBuild/release/armeabi-v7a/android_gradle_build_mini.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/.externalNativeBuild/ndkBuild/release/armeabi-v7a/android_gradle_generate_ndk_build_json_armeabi-v7a.command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/.externalNativeBuild/ndkBuild/release/armeabi-v7a/android_gradle_generate_ndk_build_json_armeabi-v7a.stderr.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/.externalNativeBuild/ndkBuild/release/armeabi-v7a/android_gradle_generate_ndk_build_json_armeabi-v7a.stdout.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/.externalNativeBuild/ndkBuild/release/armeabi-v7a/ndkBuild_build_command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/.externalNativeBuild/ndkBuild/release/armeabi-v7a/ndkBuild_build_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/gst-build-arm64-v8a/gstreamer_android.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/nnstreamer-media-ssd.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/src/assets/fontconfig/fonts.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/src/assets/fontconfig/fonts/truetype/Ubuntu-R.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/src/assets/ssl/certs/ca-certificates.crt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-media-ssd/src/org/freedesktop/gstreamer/GStreamer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-multi/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-multi/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_build_mini.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-multi/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_generate_ndk_build_json_arm64-v8a.command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-multi/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_generate_ndk_build_json_arm64-v8a.stderr.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-multi/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_generate_ndk_build_json_arm64-v8a.stdout.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-multi/.externalNativeBuild/ndkBuild/debug/arm64-v8a/ndkBuild_build_command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-multi/.externalNativeBuild/ndkBuild/debug/arm64-v8a/ndkBuild_build_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-multi/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/android_gradle_build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-multi/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/android_gradle_build_mini.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-multi/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/android_gradle_generate_ndk_build_json_armeabi-v7a.command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-multi/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/android_gradle_generate_ndk_build_json_armeabi-v7a.stderr.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-multi/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/android_gradle_generate_ndk_build_json_armeabi-v7a.stdout.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-multi/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/ndkBuild_build_command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-multi/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/ndkBuild_build_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-multi/.externalNativeBuild/ndkBuild/release/arm64-v8a/android_gradle_build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-multi/.externalNativeBuild/ndkBuild/release/arm64-v8a/android_gradle_build_mini.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-multi/.externalNativeBuild/ndkBuild/release/arm64-v8a/android_gradle_generate_ndk_build_json_arm64-v8a.command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-multi/.externalNativeBuild/ndkBuild/release/arm64-v8a/android_gradle_generate_ndk_build_json_arm64-v8a.stderr.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-multi/.externalNativeBuild/ndkBuild/release/arm64-v8a/android_gradle_generate_ndk_build_json_arm64-v8a.stdout.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-multi/.externalNativeBuild/ndkBuild/release/arm64-v8a/ndkBuild_build_command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-multi/.externalNativeBuild/ndkBuild/release/arm64-v8a/ndkBuild_build_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-multi/.externalNativeBuild/ndkBuild/release/armeabi-v7a/android_gradle_build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-multi/.externalNativeBuild/ndkBuild/release/armeabi-v7a/android_gradle_build_mini.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-multi/.externalNativeBuild/ndkBuild/release/armeabi-v7a/android_gradle_generate_ndk_build_json_armeabi-v7a.command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-multi/.externalNativeBuild/ndkBuild/release/armeabi-v7a/android_gradle_generate_ndk_build_json_armeabi-v7a.stderr.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-multi/.externalNativeBuild/ndkBuild/release/armeabi-v7a/android_gradle_generate_ndk_build_json_armeabi-v7a.stdout.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-multi/.externalNativeBuild/ndkBuild/release/armeabi-v7a/ndkBuild_build_command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-multi/.externalNativeBuild/ndkBuild/release/armeabi-v7a/ndkBuild_build_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-multi/nnstreamer-multi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_build_mini.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_build_nnstreamer-jni_arm64-v8a.command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_build_nnstreamer-jni_arm64-v8a.stderr.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_build_nnstreamer-jni_arm64-v8a.stdout.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_generate_ndk_build_json_arm64-v8a.command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_generate_ndk_build_json_arm64-v8a.stderr.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_generate_ndk_build_json_arm64-v8a.stdout.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/.externalNativeBuild/ndkBuild/debug/arm64-v8a/ndkBuild_build_command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/.externalNativeBuild/ndkBuild/debug/arm64-v8a/ndkBuild_build_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/android_gradle_build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/android_gradle_build_mini.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/android_gradle_generate_ndk_build_json_armeabi-v7a.command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/android_gradle_generate_ndk_build_json_armeabi-v7a.stderr.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/android_gradle_generate_ndk_build_json_armeabi-v7a.stdout.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/ndkBuild_build_command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/ndkBuild_build_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/.externalNativeBuild/ndkBuild/release/arm64-v8a/android_gradle_build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/.externalNativeBuild/ndkBuild/release/arm64-v8a/android_gradle_build_mini.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/.externalNativeBuild/ndkBuild/release/arm64-v8a/android_gradle_generate_ndk_build_json_arm64-v8a.command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/.externalNativeBuild/ndkBuild/release/arm64-v8a/android_gradle_generate_ndk_build_json_arm64-v8a.stderr.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/.externalNativeBuild/ndkBuild/release/arm64-v8a/android_gradle_generate_ndk_build_json_arm64-v8a.stdout.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/.externalNativeBuild/ndkBuild/release/arm64-v8a/ndkBuild_build_command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/.externalNativeBuild/ndkBuild/release/arm64-v8a/ndkBuild_build_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/.externalNativeBuild/ndkBuild/release/armeabi-v7a/android_gradle_build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/.externalNativeBuild/ndkBuild/release/armeabi-v7a/android_gradle_build_mini.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/.externalNativeBuild/ndkBuild/release/armeabi-v7a/android_gradle_generate_ndk_build_json_armeabi-v7a.command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/.externalNativeBuild/ndkBuild/release/armeabi-v7a/android_gradle_generate_ndk_build_json_armeabi-v7a.stderr.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/.externalNativeBuild/ndkBuild/release/armeabi-v7a/android_gradle_generate_ndk_build_json_armeabi-v7a.stdout.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/.externalNativeBuild/ndkBuild/release/armeabi-v7a/ndkBuild_build_command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/.externalNativeBuild/ndkBuild/release/armeabi-v7a/ndkBuild_build_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/gst-build-arm64-v8a/gstreamer_android.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/nnstreamer-ssd.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/src/assets/fontconfig/fonts.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/src/assets/fontconfig/fonts/truetype/Ubuntu-R.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/src/assets/ssl/certs/ca-certificates.crt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/src/org/freedesktop/gstreamer/GStreamer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.1.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/src/org/freedesktop/gstreamer/nnstreamer/NNStreamerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example_app/nnstreamer-ssd/src/org/freedesktop/gstreamer/nnstreamer/NNStreamerActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nnstreamer-ssd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nnstreamer-ssd.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/freedesktop/gstreamer/nnstreamer/NNStreamerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/freedesktop/gstreamer/nnstreamer/NNStreamerActivity.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,11 +296,20 @@
           <provider editor-type-id="android-designer2" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/freedesktop/gstreamer/nnstreamer/NNStreamerActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="440" column="95" selection-start-line="440" selection-start-column="95" selection-end-line="440" selection-end-column="95" />
+            <state relative-caret-position="473">
+              <caret line="447" selection-start-line="447" selection-end-line="447" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/appsrc_test2.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="501">
+              <caret line="214" column="1" selection-start-line="214" selection-start-column="1" selection-end-line="214" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -61,40 +324,51 @@
       <list>
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/src/org/freedesktop/gstreamer/nnstreamer/NNStreamerActivity.java" />
+        <option value="$PROJECT_DIR$/appsrc_test2.c" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1983" />
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="870" />
     <option name="y" value="25" />
-    <option name="width" value="1857" />
+    <option name="width" value="1050" />
     <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="example_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="example_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="nnstreamer_test" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="mou" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="example_app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="nnstreamer-ssd" type="e9137016:NonAndroidModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -400,22 +674,14 @@
       <option name="presentableId" value="Default" />
       <updated>1580650175798</updated>
     </task>
-    <task id="LOCAL-00001" summary="테스트2">
-      <created>1580819743452</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1580819743452</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1983" y="25" width="1857" height="1055" extended-state="6" />
+    <frame x="870" y="25" width="1050" height="1055" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.19547212" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.35258964" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -428,8 +694,8 @@
       <window_info anchor="bottom" id="Logcat" order="2" />
       <window_info anchor="bottom" id="TODO" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="5" sideWeight="0.41137493" side_tool="true" visible="true" weight="0.33801296" />
-      <window_info anchor="bottom" id="Build" order="6" sideWeight="0.5886251" visible="true" weight="0.33801296" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.500996" side_tool="true" visible="true" weight="0.33801296" />
+      <window_info anchor="bottom" id="Build" order="6" sideWeight="0.49900398" visible="true" weight="0.33801296" />
       <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49961686" weight="0.32890365" />
       <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
@@ -441,13 +707,9 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/../.." />
-    </ignored-roots>
     <MESSAGE value="test" />
     <MESSAGE value="테스트1" />
-    <MESSAGE value="테스트2" />
-    <option name="LAST_COMMIT_MESSAGE" value="테스트2" />
+    <option name="LAST_COMMIT_MESSAGE" value="테스트1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
@@ -460,8 +722,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/freedesktop/gstreamer/nnstreamer/NNStreamerActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="440" column="95" selection-start-line="440" selection-start-column="95" selection-end-line="440" selection-end-column="95" />
+        <state relative-caret-position="473">
+          <caret line="447" selection-start-line="447" selection-end-line="447" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appsrc_test2.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="214" column="1" selection-start-line="214" selection-start-column="1" selection-end-line="214" selection-end-column="1" />
         </state>
       </provider>
     </entry>
